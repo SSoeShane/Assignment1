@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+form {
+    line-height: 2.0;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+input[type="text"][name="fname"],
+input[type="text"][name="lname"] {
+    width: 120px;
+}
+select[name="day"],
+select[name="month"],
+select[name="year"] {
+    width: 70px;
+}
+input[type="text"][name="father"],
+input[type="text"][name="mobile"],
+input[type="email"][name="email"],
+input[type="password"][name="password"],
+input[type="text"][name="city"] {
+    width: 200px;
+}
+select[name="course"] {
+    width: 150px;
+}
+textarea[name="address"] {
+    width: 250px;
+    height: 60px;
+    vertical-align: top;
+}
+input[type="radio"], input[type="checkbox"] {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.error {
+    color: red;
+    font-size: 0.85em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+/* No specific .warning class for manual warning if PHP shows it natively */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 15px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.result-item {
+    margin-bottom: 5px;
+    line-height: 1.5;
+    color: #333;
+}
+.back-button-container {
+    text-align: center;
+    margin-top: 25px;
+}
+.go-back-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+.go-back-button:hover {
+    background-color: #0056b3;
+}
